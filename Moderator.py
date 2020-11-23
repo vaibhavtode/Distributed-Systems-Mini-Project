@@ -141,7 +141,7 @@ def GUI():
 
 if __name__ == "__main__":
     HOST = ''
-    PORT = 10000
+    PORT = 3300
     ADDR = (HOST, PORT)
     SERVER = socket(AF_INET, SOCK_STREAM)
     SERVER.bind(ADDR)
